@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic Coding', cursive;
+}
+
+ul,ol,dl,dd,dt{ list-style: none; margin: 0; padding: 0;}
+
+p{ margin: 0; padding: 0; }
+
+a{ text-decoration: none; color: #222; font-size: 12px; }
+
+span{ color: #003052; font-size: 1em; }
+
+body{ background-color: #def1ff; }
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+#wrap{
+    width: 100%;
+    height: 100%;
+}
+
+
+#wrap .hearder .navbar{
+    background-color: #cdeaff7d;
+    width: 70%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navbar .logo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar .logo .nav_logo_img{
+    max-width: 8%;
+    min-width: 4%;
+    padding: 0 10%;
+}
+
+.navbar .row {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 5%;
+}
+
+.navbar .row li{
+    width: 25%;
+    padding: 4%;
+}
+
+.navbar .row li a{
+    display: block;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+#wrap .top{
+    max-width: 100%;
+    min-width: 25%;
+    height: 33%;
+    margin: 0 15%;
+}
+
+.top_title{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.top_title p{
+    padding: 0 3%;
+}
+
+.top_subtext{
+    width: 100%;
+    padding: 6% 0;
+}
+
+.top_subtext ul{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.top_subtext ul li{
+    padding: 0 2%;
+    float: left;
+}
+
+.top_subtext ul li span{
+    display: block;
+    text-align: center;
+    padding: 2% 0;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+#wrap .middle{
+    max-width: 100%;
+    min-width: 25%;
+    height: 33%;
+    margin: 10em 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle .middle_profile_img a{
+    display: block;
+    text-align: center;
+}
+
+.middle .middle_profile_img a img{
+    max-width: 40%;
+    min-width: 20%;
+    padding: 0 10%;
+}
+
+.middle .middle_text{
+    width: 100%;
+}
+
+.middle_text .middle_text1,
+.middle_text .middle_text2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 5%;
+}
+
+
+.middle_text .middle_text1 span,
+.middle_text .middle_text2 span,
+.middle .middle_text h4{
+    margin: 0.5rem 0;
+}
+
+
+.middle_text2 .middle_img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.middle_text2 span img{
+    width: 4em;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+#wrap .bottom{
+    max-width: 100%;
+    min-width: 25%;
+    height: 33%;
+    margin: 10em 15%;
+}
+
+.bottom .my_portfolio .portfolio_text h4{
+
+}
+
+.bottom .my_portfolio ul{
+    width: 50%;
+}
+
+.bottom .my_portfolio ul li{
+    width: 11%;
+    margin: 0 auto;
+}
+
+.bottom .my_portfolio ul li .portfolio_img{
+}
+
+.bottom .my_portfolio ul li .portfolio_img img{
+    position: absolute;
+    left: 30%; right: 70%;
+    width: 10em;
+    padding: 6% 2em;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.footer{
+    width: auto;
+    height: 20%;
+    position: relative;
+}
+.footer span{
+    display: block;
+    text-align: center;
+    padding: 5% 0 0 0;
+    position: absolute;
+    left: 0; right: 0; top:100%; bottom: 0;
+}
