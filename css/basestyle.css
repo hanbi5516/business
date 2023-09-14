@@ -14,10 +14,25 @@ a{ text-decoration: none; color: #222; font-size: 12px; }
 
 span{ color: #003052; font-size: 1em; }
 
-body{ background-color: #def1ff; }
+body{ background-color: #eef8ff;}
+
+.align_c{ text-align: center !important;}
+.align_l{ text-align: left !important;}
+.align_r{ text-align: right !important;}
 
 
-/* ---------------------------------------------------------------------------------------------------------------- */
+
+.btn{ display: block; width: 30px; height: 30px; border-radius: 7px; line-height: 30px; text-align: center; background-color: #c5ddef; }
+.btn:hover{ background-color: #b3d1e8; }
+.btn_l{ display: block; width: 90px; height: 30px; border-radius: 7px; }
+.btn_m{ display: block; width: 54px; height: 30px; border-radius: 7px; }
+.btn_s{ display: block; width: 40px; height: 24px; border-radius: 5px; }
+.btn_disabled{ pointer-events: none; cursor: default; border-color: #00000020; background-color: #00000040; }
+
+#top, #middle, #bottom{ padding: 10em 15%; max-width: 100%; min-width: 25%; height: 33%; }
+
+
+/* wrap, hearder */
 
 #wrap{
     width: 100%;
@@ -63,13 +78,12 @@ body{ background-color: #def1ff; }
     text-align: center;
 }
 
-/* ---------------------------------------------------------------------------------------------------------- */
+/* top */
 
 #wrap #top{
     max-width: 100%;
     min-width: 25%;
     height: 33%;
-    margin: 0 15%;
 }
 
 .top_title{
@@ -107,13 +121,12 @@ body{ background-color: #def1ff; }
 
 
 
-/* ---------------------------------------------------------------------------------------------------------- */
+/* middle */
 
 #wrap #middle{
     max-width: 100%;
     min-width: 25%;
     height: 33%;
-    margin: 10em 15%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -170,13 +183,12 @@ body{ background-color: #def1ff; }
 
 
 
-/* ---------------------------------------------------------------------------------------------------------- */
+/* bottom */
 
 #wrap #bottom{
     max-width: 100%;
     min-width: 25%;
     height: 33%;
-    margin: 10em 15%;
 }
 
 #bottom .my_portfolio .portfolio_text h4{
@@ -197,17 +209,39 @@ body{ background-color: #def1ff; }
 }
 
 
-/* ---------------------------------------------------------------------------------------------------------- */
+/* footer */
 
-.footer{
+#footer{
     width: auto;
-    height: 20%;
     position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-end; */
 }
-.footer span{
-    display: block;
+
+#footer .BTN_top{
+    display: scroll;
+    position: fixed;
+    bottom: 10px; right: 5px;
+    /* top: 100%; right: 0; */
+}
+
+#footer .copyright{
     text-align: center;
-    padding: 5% 0 0 0;
+    /* margin: 0 auto; */
     position: absolute;
-    left: 0; right: 0; top:100%; bottom: 0;
+    bottom: 6px; right: 0; left: 0;
+}
+
+
+
+.BTN_top a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #c5ddef;
+    margin: 0 16px;
 }
