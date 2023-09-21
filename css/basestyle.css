@@ -425,7 +425,6 @@ body{ background-color: #eef8ff;}
 .row .item .select_area .selectbox{
     width: 200px;
     height: 30px;
-    position: absolute;
-    bottom: 0; left: 75%; right: 25%; top: 165%;
+    padding: 15px 0;
     border-radius: 5px;
 }
