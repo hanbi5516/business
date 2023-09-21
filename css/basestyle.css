@@ -109,8 +109,12 @@ body{ background-color: #eef8ff;}
 
 .navbar .row li:hover a{
     background-color: #87b4d5;
-    width: 40px;
+    width: 100%;
     height: 30px;
+    border-radius: 10px;
+}
+.navbar .row li:active a{
+    box-shadow: 2px 2px 6px 3px #a2d8ff;
 }
 
 /* top */
@@ -292,6 +296,11 @@ body{ background-color: #eef8ff;}
     text-align: center;
 }
 
+
+/* #middle .middle_profile_img a:active img{
+    box-shadow: 2px 2px 6px 3px #a2d8ff;
+} */
+
 #middle .middle_profile_img a img{
     max-width: 40%;
     min-width: 20%;
@@ -382,7 +391,8 @@ body{ background-color: #eef8ff;}
 
 #footer .copyright{
     text-align: center;
-    /* margin: 0 auto; */
+    margin: 0 auto;
+    padding: 1%;
     /* position: absolute;
     bottom: 6px; right: 0; left: 0; */
 }
@@ -399,4 +409,32 @@ body{ background-color: #eef8ff;}
     text-align: center;
     background-color: #c5ddef;
     margin: 64px 32px;
+}
+
+.BTN_top:hover a{
+    background-color: #d0ebff;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+.BTN_top:active a{
+    box-shadow: 2px 2px 6px 3px #bee4ff;
+}
+
+.row .item .select_area .selectbox{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    bottom: 0; left: 75%; right: 25%; top: 165%;
+    border-radius: 5px;
+}
+
+.row .item .select_area .selectbox .input_box{
+    width: 200px;
+    height: 100%;
+}
+
+.row .item .select_area .selectbox .input_box li{
+    width: 100%;
+    height: 30px;
 }

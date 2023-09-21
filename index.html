@@ -167,7 +167,7 @@
 
         <div id="footer">
 
-            <div class="family_box search_type1 d_flex justify-contents-around">
+            <div class="search_type1 d_flex justify-contents-around">
                 <div class="copyright">
                     <span>copyright <i class="fa-regular fa-copyright"></i> 박한비 All rights reserved.</span>
                 </div>
@@ -177,12 +177,37 @@
                 <div class="row">
                     <div class="item d_flex justify-contents-end">
                         <div class="select_area w_160"> <!-- 사이즈별 클래스 제어 w_160 -->
-                            <select class="input_box" onchange="window.open(value,'_blank')" name="" id="" required>
+                            <select class="selectbox" name="" id="">
+                                <ul class="input_box">
+                                    <li><button class="option_btn" type="button">선택</button></li>
+                                    <li><button class="option_btn" type="button">Brita</button></li>
+                                    <li><button class="option_btn" type="button">자기소개서</button></li>
+                                    <li><button class="option_btn" type="button">fleur</button></li>
+                                </ul>
+                            </select>
+
+                            <!-- <section class="selectbox">
+                                <h2 class="hidden">selectbox</h2>
+                               <button type="button" class="toggle-btn">
+                                 최애 프로그래밍 언어
+                                 <img src="./img/icon-Triangle-down.svg" alt="" class="ico-down">
+                               </button>
+                              <ul class="selectbox-option hide">
+                                <li><button type="button" class="option-btn">Python</button></li>
+                                <li><button type="button" class="option-btn">Java</button></li>
+                                <li><button type="button" class="option-btn">JavaScript</button></li>
+                                <li><button type="button" class="option-btn">C#</button></li>
+                                <li><button type="button" class="option-btn">C/C++</button></li>
+                              </ul>
+                            </section> -->
+
+
+                            <!-- <select class="input_box" onchange="window.open(value,'_blank')" name="" id="" required>
                                 <option value="">선택</option>
                                 <option value="http://bakhanbi98.dothome.co.kr/ncs/">Brita</option>
                                 <option value="http://bakhanbi98.dothome.co.kr/">자기소개서</option>
                                 <option value="">fleur</option>
-                            </select>
+                            </select> -->
                         </div>
                     </div>
                 </div>
